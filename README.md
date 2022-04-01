@@ -15,6 +15,7 @@ schtasks /create /tn xmlSyncTasks /tr "C:\wayssoft\Environment\services\xmlSync.
 schtasks /create /tn xmlSyncTasks /XML "C:\wayssoft\Environment\services\xmlSyncTasks.xml"
 
 ```
+Verificar antes a existência do arquivo "xmlSyncTasks.xml" caso não encontrado no caminho "C:\wayssoft\Environment\services\" baixe o arquivo e coloque no caminho citado.
 
 # List tasks for csv
 
